@@ -1,10 +1,7 @@
 all: main.exe
 
-main.exe: main.o
-    gcc -o main.exe main.o
-
-main.o: main.c
-    gcc -c main.c -std=c11 -Og -Wall
+main.exe: main.c
+	gcc main.c -std=c11 -Og -Wall -o main
 
 clean:
-    rm main.o main.exe
+	rm -rf main.exe
