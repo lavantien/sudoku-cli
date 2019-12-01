@@ -1,11 +1,13 @@
 # sudoku-cli
 A CLI tool for creating and solving sudoku at any difficulty.
 
-####Build:
+#### Build:
 Run `make` in terminal.
 
-####Run:
-`main <selection> [...]
+#### Run:
+Run `./main` in terminal.
+`
+main <selection> [...]
 
 selection:
 
@@ -17,4 +19,5 @@ Command: main 2 [<format selection>]
 
         format selection:
         0 or default: readable
-        1 or others: oneline`
+        1 or others: oneline
+`
