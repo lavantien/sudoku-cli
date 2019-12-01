@@ -7,6 +7,7 @@ Run `make` in terminal.
 #### Run:
 Run `./main` in terminal.
 
+`
 main <selection> [...]
 
 selection:
