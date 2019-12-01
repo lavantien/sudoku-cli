@@ -6,7 +6,7 @@ Run `make` in terminal.
 
 #### Run:
 Run `./main` in terminal.
-`
+
 main <selection> [...]
 
 selection:
@@ -20,4 +20,3 @@ Command: main 2 [<format selection>]
         format selection:
         0 or default: readable
         1 or others: oneline
-`
