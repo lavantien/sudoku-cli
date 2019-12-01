@@ -7,8 +7,7 @@ Run `make` in terminal.
 #### Run:
 Run `./main` in terminal.
 
-`
-main <selection> [...]
+main {selection} [...]
 
 selection:
 
@@ -16,7 +15,7 @@ selection:
 Command: main 0 <one line sudoku with `.` as empty cell>
 
 1 -> 4: generate sudoku with appropriate difficulty.
-Command: main 2 [<format selection>]
+Command: main 2 [{format selection}]
 
         format selection:
         0 or default: readable
