@@ -9,6 +9,7 @@ Run `./main` in terminal.
 
 #### Example Run:
 ```
+1
 .......1.
 4........
 .2.......
