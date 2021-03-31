@@ -178,6 +178,7 @@ bool basicBacktracking(int x, int y) {
 }
 
 void basicSolver(void) {
-	preSolve();
-	basicBacktracking(0, 0);
+	if (!preSolve()) {
+		basicBacktracking(0, 0);
+	}
 }
