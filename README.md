@@ -8,6 +8,7 @@ Run `make` in terminal.
 Run `./main` in terminal.
 
 #### Example Run:
+```
 .......1.
 4........
 .2.......
@@ -45,3 +46,4 @@ ___ ___ ___
 Pre-solve count: 2
 Recursive count: 25333461
 Execution time: 0.903000
+```
