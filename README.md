@@ -1,14 +1,25 @@
-# sudoku-cli
-A CLI tool for solving sudoku puzzle with a lighting fast speed.
+# Sudoku CLI
+
+A CLI tool for solving sudoku puzzle with a blazingly fast speed.
 Using optimized backtracking: reduce the decision space for each cell before backtracking, even solved the puzzle already without even backtracking.
 
-#### Build:
-Run `make` in terminal.
+### Build
 
-#### Run:
-Run `./main` in terminal.
+- Run `make` in terminal.
+
+### Usage
+
+- Run `./main` in terminal.
+- `0` for single line input
+- `1` for grid input
+- Any other numbers to quit
+
+### Input
+
+- <https://qqwing.com/generate.html>
 
 #### Example Run:
+
 ```
 1
 .5.......
@@ -47,7 +58,7 @@ ___ ___ ___
 
 Pre-solve count: 10
 Recursive count: 0
-Execution time: 0.000000
+Execution time: 0.000086
 ```
 
 ```
@@ -88,5 +99,38 @@ ___ ___ ___
 
 Pre-solve count: 2
 Recursive count: 25333461
-Execution time: 0.903000
+Execution time: 0.440439
+```
+
+```
+0
+....9....2.7...1.96..1.5..45.6.1.9.3...7.9....9..5..4..3.....6..2.9.1.7....8.3...
+
+...|.9.|...
+2.7|...|1.9
+6..|1.5|..4
+___ ___ ___
+5.6|.1.|9.3
+...|7.9|...
+.9.|.5.|.4.
+___ ___ ___
+.3.|...|.6.
+.2.|9.1|.7.
+...|8.3|...
+
+413|297|658
+257|648|139
+689|135|724
+___ ___ ___
+576|412|983
+342|789|516
+198|356|247
+___ ___ ___
+931|574|862
+824|961|375
+765|823|491
+
+Pre-solve count: 2
+Recursive count: 8107
+Execution time: 0.000185
 ```
