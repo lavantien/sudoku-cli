@@ -18,7 +18,11 @@ Using optimized backtracking: reduce the decision space for each cell before bac
 
 - <https://qqwing.com/generate.html>
 
-#### Example Run:
+### Dev Logs
+
+- Fixing `fgets` bugs: <https://youtu.be/PKOUQ61ObqE>
+
+### Example Run:
 
 ```
 1
